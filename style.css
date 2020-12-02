@@ -1,0 +1,112 @@
+h1 {
+    color: red;
+}
+* {
+   border:none;
+}
+.aboutbody{
+    background-color: orange;
+}
+
+
+.top{
+    background-color: yellow ; 
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-right: 20px;
+    padding-top:10px ;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.product{
+    display: flex;
+    justify-content: flex-start;
+    background-color:lightblue ;
+    position: relative;
+}
+.product a{
+    position: absolute;
+    top: 50%;
+    left:30%;
+    transform: translate(-50%,-50%); 
+    opacity: 0;  
+}
+.pic:hover a{
+    opacity: 1;
+}
+.pic:hover img{
+    opacity: 0.2;
+}
+.object{
+    display: flex;
+    justify-content: flex-start;
+    background-color: lightgreen;
+    position: relative;
+   }
+   .object a{
+    position: absolute;
+    top: 50%;
+    left:30%;
+    transform: translate(-50%,-50%); 
+    opacity: 0;  
+}
+.photo:hover a{
+    opacity: 1;
+}
+.photo:hover img{
+    opacity: 0.2;
+}
+.thing{
+    display: flex;
+    justify-content: flex-start;
+    background-color: pink;
+    position: relative;
+}
+.thing a{
+    position: absolute;
+    top: 50%;
+    left:30%;
+    transform: translate(-50%,-50%); 
+    opacity: 0;  
+}
+.image:hover a{
+    opacity: 1;
+}
+.image:hover img{
+    opacity: 0.2;
+}
+h2{
+    text-align: center;
+}
+.photo{
+    border: 2 px solid #000000;
+    border-radius: 400px;
+}
+.pic{
+    border:2 px solid #000000;
+    border-radius: 500px;
+}
+.image{
+    border:2 px solid #000000;
+    border-radius: 500px;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: blue;    
+}
+a:visited{
+    color: yellow;
+}
+.menu a{
+    margin-left: 30px;
+}
